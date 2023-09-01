@@ -1,0 +1,7 @@
+services:
+  sveriparse_dev:
+    image: sparse_dev:1.0
+    stdin_open: true       # docker run -i
+    tty: true              # docker run -t
+    volumes:
+      - .:/app
